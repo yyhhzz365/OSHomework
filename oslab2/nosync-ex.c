@@ -1,7 +1,7 @@
 #include <pthread.h>
 #include <stdio.h>
 int sum = 0;
-void thread(void) {
+void* thread(void*) {
     int i;
     for (i = 0; i < 1000000; i++)
         sum += 1;
