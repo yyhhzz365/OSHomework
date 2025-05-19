@@ -1,3 +1,4 @@
+报告代码详情见 https://github.com/yyhhzz365/OSHomework/tree/main/oslab3
 1. fork代码验证
 - 结果分析
   - 假设父进程为P0，fork()创建子进程C0
